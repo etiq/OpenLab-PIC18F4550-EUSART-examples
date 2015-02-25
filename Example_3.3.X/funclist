@@ -1,0 +1,11 @@
+_OpenUSART: CODE, 32676 0 92
+_Write_str: CODE, 32404 0 42
+_Clear_string: CODE, 32330 0 34
+_main: CODE, 32532 0 62
+__initialization: CODE, 32488 0 38
+_putsUSART: CODE, 32364 0 40
+_Read_str: CODE, 32594 0 82
+_WriteUSART: CODE, 32284 0 16
+_ConfigUSART: CODE, 32268 0 16
+_ReadUSART: CODE, 32300 0 30
+Total: 452

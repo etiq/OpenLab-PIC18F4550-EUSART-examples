@@ -1,0 +1,31 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.5.4	//
+!_TAG_REVISION_NAME	MCHPTags	//
+!_TAG_REVISION_VERSION	6.0.1	//
+CONFIG_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\config.h	12;"	d	line:12
+ConfigUSART	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	19;"	f	line:19	signature:(unsigned char config_1, unsigned char config_2)
+ConfigUSART	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	16;"	p	line:16	signature:(unsigned char config_1, unsigned char config_2)
+Fosc::20000000	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	31;"	d	line:31	file:
+ReadUART	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	24;"	f	line:24	signature:(void)
+ReadUART	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	27;"	p	line:27	signature:(void)
+Read_str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	36;"	f	line:36	signature:(unsigned char* str, unsigned char n)
+Read_str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	49;"	p	line:49	signature:(unsigned char* str, unsigned char n)
+Read_string	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	47;"	f	line:47	signature:(unsigned char *buffer, unsigned char len)
+Read_string	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	68;"	p	line:68	signature:(unsigned char *buffer, unsigned char len)
+UART_H	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	12;"	d	line:12
+Write	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	42;"	f	line:42	signature:(char data)
+Write	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	59;"	p	line:59	signature:(char data)
+Write_str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	30;"	f	line:30	signature:(unsigned char* str)
+Write_str	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.h	38;"	p	line:38	signature:(unsigned char* str)
+baud::9600	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	32;"	d	line:32	file:
+config_1	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	35;"	v	line:35
+config_2	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	36;"	v	line:36
+data	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	40;"	l	line:40
+data	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	50;"	l	line:50
+i	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\uart.c	49;"	l	line:49
+main	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	38;"	f	line:38	signature:(void)
+spbrg::((Fosc/baud/64)-1)	C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.2.X\main.c	33;"	d	line:33	file:

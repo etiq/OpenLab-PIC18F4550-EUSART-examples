@@ -1,0 +1,4 @@
+Warning[2103] C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.3.X\main.c 16 : default startup code expects main function declared as 'void main (void)'
+Error[1203] C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.3.X\main.c 20 : too few arguments in function call
+Warning[2058] C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.3.X\main.c 24 : call of function without prototype
+Warning[2058] C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.3.X\main.c 25 : call of function without prototype

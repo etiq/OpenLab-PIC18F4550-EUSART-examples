@@ -1,0 +1,2 @@
+Warning[2068] C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.5.X\main.c 42 : obsolete use of implicit 'int' detected
+Warning[2103] C:\Users\tbi\Dropbox\Sunil Kumar_shared\CODE_Examples_C18_XC8_compatable\EUSART\Example_3.5.X\main.c 51 : default startup code expects main function declared as 'void main (void)'

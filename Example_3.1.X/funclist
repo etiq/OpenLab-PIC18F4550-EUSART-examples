@@ -1,0 +1,9 @@
+_OpenUSART: CODE, 32664 0 104
+_Delay1KTCYx: CODE, 32484 0 16
+_main: CODE, 32576 0 88
+_Write: CODE, 32454 0 14
+__initialization: CODE, 32544 0 26
+_WriteUSART: CODE, 32500 0 18
+_ConfigUSART: CODE, 32468 0 16
+_delay_ms: CODE, 32518 0 26
+Total: 308

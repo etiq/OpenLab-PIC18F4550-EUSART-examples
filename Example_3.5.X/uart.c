@@ -1,0 +1,79 @@
+/*
+ * File name            : uart.c
+ * Compiler             : MPLAB XC8/ MPLAB C18 compiler
+ * IDE                  : Microchip  MPLAB X IDE v1.90/ MPLAB IDE v8
+ * Author               : Etiq Technologies
+ * Description          : Example 3.3 USART_3
+ *                      : Created on October 18, 2013, 10:37 AM
+ *                      : uart functions source file
+ */
+#if defined(__XC)
+    #include <plib\usart.h>
+#elif defined(__18CXX)
+    #include <usart.h>
+#endif
+
+/*_____________________________________________configure USART____________________________________________________________*/
+
+void ConfigUSART(unsigned char config_1, unsigned char config_2)
+{
+OpenUSART(config_1, config_2);
+}
+
+unsigned char ReadUART(void)
+{
+while(!(DataRdyUSART()));                                           /* Reading a data byte                                        */
+     return(ReadUSART());
+}
+
+
+void Write_str(unsigned char* buffer)
+    {
+    WriteUSART('\n');
+    WriteUSART('\r');
+    putsUSART((char *)buffer);                                         /*Passing the address of the String to the USART write function */
+    while(BusyUSART());                                         /*Wait until USART goes to idle state                           */
+    }
+void Read_str(unsigned char* buffer)
+{
+    unsigned char data = 0;
+    WriteUSART('\n');
+    WriteUSART('\r');
+    while(1)
+      {
+      while(!DataRdyUSART());                                           /* Wait for data to be received                           */
+      data = getcUSART();
+      if(data != '\r')                                                  /* Get a character from the USART                         */
+      {
+	  *buffer = data;                                                   /* save data in a string                                  */
+      WriteUSART(data);
+	  while(BusyUSART());
+	  }
+	  else
+		break;
+      buffer++;                                                         /* Increment the string pointer                           */
+      }                                                                 /* configure external LCD                                       */
+                                                                        /* Reading a string from UART                                   */
+}
+
+void Write(char data)
+{
+    WriteUSART(data);                                           /* Write a byte through USART module                    */
+    while(BusyUSART());                                         /* Wait until the write complete                        */  
+}
+void Read_string(unsigned char *buffer, unsigned char len)            /* Reads a string data from UART of having specific length*/
+  {
+  char i;
+  unsigned char data;
+      Write(0x0D);
+      Write('\n');
+  for(i=0;i<len;i++)
+    {
+    while(!DataRdyUSART());                                           /* Wait for data to be received                           */
+    data = getcUSART();                                               /* Get a character from the USART                         */
+    *buffer = data;                                                   /* save data in a string                                  */
+    WriteUSART(data);
+    while(BusyUSART());
+    buffer++;                                                         /* Increment the string pointer                           */
+    }
+  }
